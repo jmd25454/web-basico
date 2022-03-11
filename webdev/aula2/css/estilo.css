@@ -1,0 +1,170 @@
+body {
+  background: url(http://andstud.io/wp-content/uploads/2014/03/blurrrr2.jpg)
+    no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  padding-top: 30px;
+  font-size: 100px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0px;
+}
+
+h4 {
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  padding-top: 30px;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0px;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 965px;
+  height: 450px;
+  padding: 30px;
+}
+
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+table {
+  background-color: transparent;
+  margin: auto;
+  border: none;
+  padding-top: 50px;
+}
+
+th,
+td {
+  font-weight: unset;
+  padding-right: 10px;
+  border: none;
+}
+
+th {
+  font-size: 40px;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-right: 35px;
+  font-weight: bold;
+}
+
+td {
+  font-size: 25px;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 35px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 30px;
+  color: white;
+}
+
+.button {
+  border: 2px solid #d2bdff;
+  height: 80px;
+  width: 200px;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  margin: 25px;
+}
+.button:hover {
+  animation: star 1.3s linear infinite;
+}
+
+.link {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  transition: 0.5s color ease;
+  text-decoration: underline;
+  color: white;
+  font-size: 2.5em;
+  margin: 20px;
+  background-color: #902fff;
+}
+
+.link:hover {
+  background-color: black;
+}
+
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #cc6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #cc4949;
+}
+
+[type="submit"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #cc6666;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: #cc4949;
+}
+
+.util {
+  font-size: 0;
+}
+
+.nada {
+  text-align: center;
+  font-size: 150px;
+  color: red;
+}
