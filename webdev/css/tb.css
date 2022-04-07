@@ -1,24 +1,24 @@
 /* page positions */
-
 header {
   background-color: black;
-  width: 100%;
-  position: fixed;
   top: 0;
   margin-left: -8px;
+  margin-top: -8px;
+  margin-right: -8px;
 }
 
 section {
-  margin-top: 90px;
+  margin-left: -8px;
+  margin-right: -8px;
 }
 
 footer {
   background-color: black;
-  position: absolute;
   bottom: 0;
+  position: fixed;
   width: 100%;
-
   margin-left: -8px;
+  margin-right: -8px;
 }
 
 /* header classes */
@@ -28,12 +28,13 @@ footer {
   width: 150px;
   height: 150px;
   padding-left: 50px;
-  margin-right: 550px;
+  margin-right: 500px;
 }
 
 .headermenu {
   vertical-align: 70px;
-  padding-right: 45px;
+  padding-right: 0px;
+  margin-right: 45px;
 }
 
 .link a:before,
@@ -54,13 +55,64 @@ footer {
 
 .link a:hover:before,
 .link-1 a:hover:after {
-  width: 50%;
+  width: 100%;
 }
 
 .link a:before,
 .link a:after {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+}
+/* section classes */
+
+.perfil {
+  border-radius: 50%;
+  height: 320px;
+  width: 290px;
+  margin-left: 250px;
+  vertical-align: top;
+  margin-right: 0;
+  padding-right: 0;
+  display: inline;
+  margin-top: 80px;
+}
+
+.textperfil {
+  color: #36454f;
+  font-family: Andale Mono, monospace;
+  text-align: left;
+  display: inline-block;
+  padding-left: 150px;
+  margin-top: 50px;
+}
+
+.divsection {
+  display: block;
+  margin: 0 auto;
+}
+
+.textinformation {
+  margin-top: 100px;
+  margin-left: 15px;
+}
+
+div {
+  width: auto;
+  height: 580px;
+  display: block;
+  position: relative;
+}
+
+div::after {
+  content: "";
+  background-image: url("../img/code.png");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 /* footer classes */
@@ -93,6 +145,7 @@ a {
   text-decoration: none;
   position: relative;
   display: inline;
+  font-family: OCR A Std, monospace;
 }
 
 div {
@@ -101,7 +154,17 @@ div {
 
 p {
   color: white;
-  margin-left: 410px;
+  margin-left: 1160px;
   display: inline;
   vertical-align: -10px;
+  font-size: 14px;
+  display: inline;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h4 {
+  text-decoration: underline;
 }
