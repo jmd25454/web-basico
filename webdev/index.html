@@ -1,83 +1,594 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/tb.css" />
-    <title>João Abreu - Home</title>
+    <meta charset="utf-8" />
+    <title>Joao Abreu - Portfolio</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/principal.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+    <link rel="icon" href="imagens/portfolio.png" type="image/icon type">
   </head>
-  <body>
-    <header>
-      <img class="logo" src="img/logoja.png" alt="Logo da página JA" />
 
-      <div class="link">
-        <a class="headermenu" href="index.html">Home</a>
-        <a class="headermenu" href="aula1/index.html">Aula 1</a>
-        <a class="headermenu" href="aula2/index.html">Aula 2</a>
-        <a class="headermenu" href="aula3/index.html">Aula 3</a>
-        <a class="headermenu" href="aula4/index.html">Aula 4</a>
-        <a class="headermenu" href="aula5/index.html">Aula 5</a>
+  <body id="top">
+
+    <header>
+      <div class="row">
+        <div class="top-bar">
+          <a class="menu-toggle" href="#"><span>Menu</span></a>
+
+          	
+
+          <nav id="main-nav-wrap">
+            <ul class="main-navigation">
+              <li class="current">
+                <a href="#intro" title="">Home</a>
+              </li>
+              <li>
+                <a href="#sobre_mim" title="">Sobre mim</a>
+              </li>
+              <li>
+                <a href="#resumo" title="">Resumo</a>
+              </li>   
+              <li>
+                <a href="#contato" title="">Contato</a>
+              </li>
+              <li>
+                <a href="aula1/index.html" title="">Aula 1</a>
+              </li>
+              <li>
+                <a href="aula2/index.html" title="">Aula 2</a>
+              </li>
+              <li>
+                <a href="aula3/index.html" title="">Aula 3</a>
+              </li>
+              <li>
+                <a href="aula5/index.html" title="">Aula 5</a>
+              </li>
+
+              
+            </ul>
+          </n>
+        </div>
       </div>
     </header>
-    <section>
-      <div class="divsection">
-        <img
-          class="perfil"
-          src="img/joaoabreu.jpeg"
-          alt="Joao Abreu, autor do site"
-        />
-        <ul class="textperfil">
-          <h1>João Vitor Mosson de Abreu</h1>
-          <li><h3>Estudante de Análise e Desenvolvimento de Sistemas</h3></li>
-          <li>
-            <h3>Desenvolvedor de sistemas e aplicativos na empresa TX Fuel</h3>
-          </li>
-          <li>
-            <h3>
-              Atualmente se especializando na linguagem Dart <br />
-              e na ferramenta de desenvolvimento Flutter
-            </h3>
-          </li>
-          <li><h3>Já morou, estudou e jogou futebol nos Estados Unidos</h3></li>
-          <li>
-            <h3>
-              Participou de alguns projetos sociais como o projeto "What's Up"
-              <br />
-              e "All the way to Jesus".
-            </h3>
-          </li>
-        </ul>
-        <h4 class="textinformation">
-          Você pode encontrar mais informações sobre o João com o link dos
-          ícones abaixo.
-        </h4>
+
+    <section id="intro">
+      <div class="intro-overlay"></div>
+
+      <div class="intro-content">
+        <div class="row">
+          <div class="col-twelve">
+            <h5>Hello, World.</h5>
+            <h1>Eu sou João Abreu.</h1>
+
+            <p class="intro-position">
+              <span>Front-end Developer</span>
+              <span>Back-end Developer</span>
+            </p>
+
+            <a class="button stroke " href="#sobre_mim" title=""
+              >Mais sobre mim</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <ul class="intro-social">
+        <li>
+          <a href="https://www.facebook.com/joaovitor.abreu.3/"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://github.com/jmd25454"><i class="fa fa-github"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/joao.abreu01/"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-abreu-8a1524212/"><i class="fa fa-linkedin"></i></a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="sobre_mim">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Sobre mim</h5>
+          <h1>Um pouco sobre João.</h1>
+
+          <div class="intro-info">
+            <img src="imagens/joaoabreu.jpeg" alt="Profile Picture" />
+
+            <p class="lead">
+              Olá, sou o João, tenho 20 anos, nascido e criado em <br> Araucária, PR. Sou estudante da Universidade Positivo <br>
+							e atualmente estou cursando Análise e Desenvolvimento de Sistemas(3º período).
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row about-content">
+        <div class="col-six tab-full">
+          <h3>Perfil profissional</h3>
+          <p>
+            Hoje sou estagiário em uma empresa que desenvolve sistemas para gerenciamento de bases de combustível, onde trabalho no setor de back e front end da empresa.
+          </p>
+
+          <ul class="info-list">
+            <li>
+              <strong>Nome completo:</strong>
+              <span>João Vitor Mosson de Abreu</span>
+            </li>
+            <li>
+              <strong>Data de nascimento:</strong>
+              <span>18 de Junho de 2001</span>
+            </li>
+            <li>
+              <strong>Trabalho:</strong>
+              <span>Web e Software Developer</span>
+            </li>
+            
+            <li>
+              <strong>Email:</strong>
+              <span>jmd25454@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-six tab-full">
+          <h3>Habilidades</h3>
+          <p>
+            Minhas principais habilidades estão no desenvolvimento Front-end de sistemas, contando com conhecimento básico em desenvolvimento back-end.
+          </p>
+
+          <ul class="skill-bars">
+            <li>
+              <div class="progress percent90"><span>90%</span></div>
+              <strong>HTML5</strong>
+            </li>
+            <li>
+              <div class="progress percent80"><span>80%</span></div>
+              <strong>CSS3</strong>
+            </li>
+            <li>
+              <div class="progress percent50"><span>50%</span></div>
+              <strong>Java</strong>
+            </li>
+            <li>
+              <div class="progress percent50"><span>50%</span></div>
+              <strong>Dart</strong>
+            </li>
+            <li>
+              <div class="progress percent70"><span>70%</span></div>
+              <strong>PHP</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row button-section">
+        <div class="col-twelve">
+          <a href="#contato" title="Hire Me" class="button stroke "
+            >Me contate</a
+          >
+          <a href="#" title="Download CV" class="button button-primary"
+            >Download CV</a
+          >
+        </div>
       </div>
     </section>
-    <footer>
-      <a href="https://www.instagram.com/joao.abreu01/">
-        <img
-          class="minilogo"
-          src="img/minilogoinstagram.png"
-          alt="Logo Instagram"
-        />
-      </a>
-      <a href="https://github.com/jmd25454">
-        <img
-          class="minilogo"
-          src="img/minilogogithub.png"
-          alt="Logo Instagram"
-        />
-      </a>
-      <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-abreu-8a1524212/">
-        <img
-          class="round"
-          src="img/minilogolinkedin.png"
-          alt="Logo Instagram"
-        />
-      </a>
 
-      <p>powered by <b>Joao Abreu</b></p>
+    <section id="resumo" class="grey-section">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Resumo</h5>
+          <h1>Pouco da minha história.</h1>
+
+          <p class="lead">
+            Com uma experiência única vivída nos Estados Unidos, tive a possibilidade de estudar e participar de equipes atléticas no país, portanto, esse é um pouco da minha educação.
+          </p>
+        </div>
+      </div>
+
+      <div class="row resume-timeline">
+        <div class="col-twelve resume-header">
+          <h2>Experiências de trabalho</h2>
+        </div>
+
+        <div class="col-twelve">
+          <div class="timeline-wrap">
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Sofware and Web Developer</h3>
+                <p>Fev 2022 - Presente</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>TX Fuel</h4>
+                <p>
+                  Atuo desenvolvendo sistemas web nas linguagens: Java, Html, CSS e JS. E, também desenvolvendo sistemas mobile e desktop na linguagem: Dart.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Gerente de informática</h3>
+                <p>July 2019 - June 2020</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Patrick Henry Community College</h4>
+                <p>
+                  Atuei sendo gestor de uma rede de computadores na faculdade PHCC, onde fazia os concertos e melhoras nos desktops da sala.
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="row resume-timeline">
+        <div class="col-twelve resume-header">
+          <h2>Education</h2>
+        </div>
+
+        <div class="col-twelve">
+          <div class="timeline-wrap">
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Analista e Desenvolvedor de Sistemas</h3>
+                <p>Fev 2021 - Presente</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Universidade Positivo</h4>
+                <p>
+                  Em fevereiro de 2021 iniciei um curso de TI na Universidade Positivo, visando crescer meus conhecimentos na área da tecnologia e da programação.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Introdução à computação</h3>
+                <p>Jul 2019 - Jun 2020</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Patrick Henry Community College</h4>
+                <p>
+                  Em Julho de 2019 iniciei um curso de introdução à computação na PHCC, onde estudei sobre os diversos softwares da microsoft e um pouco sobre lógicas de programação e engenharia do hardware.
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+            <div id="modal-01" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/m-liberty.jpg" alt="" />
+              </div>
+
+              <div class="description-box">
+                <h4>Liberty</h4>
+                <p>
+                  Proin gravida nibh vel velit auctor aliquet. Aenean
+                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+                  ipsum, nec sagittis sem nibh id elit.
+                </p>
+
+                <div class="categories">Web Development</div>
+              </div>
+
+              <div class="link-box">
+                <a href="http://www.behance.net">Details</a>
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+
+            <div id="modal-02" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
+              </div>
+
+              <div class="description-box">
+                <h4>Shutterbug</h4>
+                <p>
+                  Proin gravida nibh vel velit auctor aliquet. Aenean
+                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+                  ipsum, nec sagittis sem nibh id elit.
+                </p>
+
+                <div class="categories">Web Design</div>
+              </div>
+
+              <div class="link-box">
+                <a href="http://www.behance.net">Details</a>
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+
+            <div id="modal-03" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/m-clouds.jpg" alt="" />
+              </div>
+
+              <div class="description-box">
+                <h4>Clouds</h4>
+                <p>
+                  Proin gravida nibh vel velit auctor aliquet. Aenean
+                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+                  ipsum, nec sagittis sem nibh id elit.
+                </p>
+
+                <div class="categories">Web Design</div>
+              </div>
+
+              <div class="link-box">
+                <a href="http://www.behance.net">Details</a>
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+
+            <div id="modal-04" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+              </div>
+
+              <div class="description-box">
+                <h4>Beetle</h4>
+                <p>
+                  Proin gravida nibh vel velit auctor aliquet. Aenean
+                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+                  ipsum, nec sagittis sem nibh id elit.
+                </p>
+
+                <div class="categories">Branding</div>
+              </div>
+
+              <div class="link-box">
+                <a href="http://www.behance.net">Details</a>
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+
+            <div id="modal-05" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
+              </div>
+
+              <div class="description-box">
+                <h4>Lighthouse</h4>
+                <p>
+                  Proin gravida nibh vel velit auctor aliquet. Aenean
+                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+                  ipsum, nec sagittis sem nibh id elit.
+                </p>
+
+                <div class="categories">Web Development</div>
+              </div>
+
+              <div class="link-box">
+                <a href="http://www.behance.net">Details</a>
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+
+            <div id="modal-06" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/m-salad.jpg" alt="" />
+              </div>
+
+              <div class="description-box">
+                <h4>Salad</h4>
+                <p>
+                  Proin gravida nibh vel velit auctor aliquet. Aenean
+                  sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+                  ipsum, nec sagittis sem nibh id elit.
+                </p>
+
+                <div class="categories">Branding</div>
+              </div>
+
+              <div class="link-box">
+                <a href="http://www.behance.net">Details</a>
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    </section>
+
+    
+
+    
+
+    <section id="contato">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Contato</h5>
+          <h1>Adoraria receber seu feedback.</h1>
+
+          <p class="lead">
+            Se puder e tiver interesse, me envie uma mensagem através desse formulário.
+          </p>
+        </div>
+      </div>
+
+      <div class="row contact-form">
+        <div class="col-twelve">
+          <form name="contactForm" id="contactForm" method="post" action="">
+            <fieldset>
+              <div class="form-field">
+                <input
+                  name="contactName"
+                  type="text"
+                  id="contactName"
+                  placeholder="Nome"
+                  value=""
+                  minlength="2"
+                  required=""
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactEmail"
+                  type="email"
+                  id="contactEmail"
+                  placeholder="E-Mail"
+                  value=""
+                  required=""
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactSubject"
+                  type="text"
+                  id="contactSubject"
+                  placeholder="Título"
+                  value=""
+                />
+              </div>
+              <div class="form-field">
+                <textarea
+                  name="contactMessage"
+                  id="contactMessage"
+                  placeholder="Mensagem"
+                  rows="10"
+                  cols="50"
+                  required=""
+                ></textarea>
+              </div>
+              <div class="form-field">
+                <button class="submitform">Enviar</button>
+                <div id="submit-loader">
+                  <div class="text-loader">Enviando...</div>
+                  <div class="s-loader">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+
+          <div id="message-warning"></div>
+          <div id="message-success">
+            <i class="fa fa-check"></i>Sua mensagem foi enviada, obrigado!<br />
+          </div>
+        </div>
+      </div>
+
+      <div class="row contact-info">
+        <div class="col-four tab-full">
+          <div class="icon">
+            <i class="icon-pin"></i>
+          </div>
+
+          <h5>Onde me encontrar</h5>
+
+          <p>
+            Av. Dr. Victor do Amaral 1020(TX Fuel)<br />
+            Araucária, PR<br />
+            83702-040
+          </p>
+        </div>
+
+        <div class="col-four tab-full collapse">
+          <div class="icon">
+            <i class="icon-mail"></i>
+          </div>
+
+          <h5>Meu E-Mail</h5>
+
+          <p>
+            jmd25454@gmail.com<br />   
+          </p>
+        </div>
+
+        <div class="col-four tab-full">
+          <div class="icon">
+            <i class="icon-phone"></i>
+          </div>
+
+          <h5>Meu telefone</h5>
+
+          <p>
+            Celular: (+55) 41 9 9518 0831<br />
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <div class="row">
+        <div class="col-six tab-full pull-right social">
+          <ul class="footer-social">
+            <li>
+              <a href="https://www.facebook.com/joaovitor.abreu.3/"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/jmd25454"><i class="fa fa-github"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/joao.abreu01/"><i class="fa fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-abreu-8a1524212/"><i class="fa fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+
+      
+
+        <div id="go-top">
+          <a  title="Back to Top" href="#top"
+            ><i class="fa fa-long-arrow-up"></i
+          ></a>
+        </div>
+      </div>
     </footer>
+
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
