@@ -1538,20 +1538,20 @@ header .top-bar {
 }
 
 .intro-info {
-  margin-top: 4.2rem;
+  margin-top: 0;
   margin-right: -30px;
   margin-left: -30px;
 }
 .intro-info img {
-  height: 11rem;
-  width: 11rem;
+  height: 20rem;
+  width: 20rem;
   border-radius: 50%;
   margin: 0.9rem 0 0 0;
   float: left;
 }
 .intro-info .lead {
   text-align: left;
-  padding-left: 13rem;
+  padding-left: 28rem;
 }
 
 .sobre_mim-content {
