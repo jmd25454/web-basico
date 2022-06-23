@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If e Else - OL</title>
+</head>
+<body>
+    
+    <script>
+
+        var notaAluno = prompt('Digite a nota:')
+        var faltaAluno = prompt('Digite as faltas:')
+
+        var media = 6
+        var faltaMax = 20
+
+        if(notaAluno >= media && faltaAluno <= faltaMax){
+            document.write('APROVADO')
+        }else if(media < 6 || faltaAluno > faltaMax){
+            document.write('SUBSTITUTIVA')
+        }else{
+            document.write('REPROVADO')
+        }
+
+    </script>
+
+</body>
+</html>
