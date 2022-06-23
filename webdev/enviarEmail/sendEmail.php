@@ -19,26 +19,26 @@ if($_POST) {
 	if (strlen($contact_message) < 15) {
 		$error['message'] = "Por favor, insira sua mensagem. Ela deve conter no mínimo 15 caracteres.";
 	}
-	if ($subject == '') { $subject = "Contact Form Submission"; }
+	if ($subject == '') { $subject = "Formulário para contato"; }
 
 
    $message .= "Email de: " . $name . "<br />";
-	$message .= "Endereço Email: " . $email . "<br />";
+	 $message .= "Endereço Email: " . $email . "<br />";
    $message .= "Mensagem: <br />";
    $message .= $contact_message;
    $message .= "<br /> ----- <br /> Esse e-mail foi enviado do seu site portfolio. <br />";
 
    $from =  $name . " <" . $email . ">";
 
-	$headers = "From: " . $from . "\r\n";
-	$headers .= "Reply-To: ". $email . "\r\n";
+	$headers = "De: " . $from . "\r\n";
+	$headers .= "Remetente: ". $email . "\r\n";
  	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+	$headers .= "Tipo de conteúdo: text/html; charset=ISO-8859-1\r\n";
 
 
    if (!$error) {
 
-      ini_set("sendmail_from", $siteOwnersEmail); 
+      ini_set("email_enviado_de_", $siteOwnersEmail); 
       $mail = mail($siteOwnersEmail, $subject, $message, $headers);
 
 		if ($mail) { echo "OK"; }
